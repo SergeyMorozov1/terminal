@@ -1,0 +1,357 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-29 01:19-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: terminal.c:847
+msgid "ChequeOnay"
+msgstr "************************** ОҢАЙ ***************************"
+
+#: terminal.c:855
+msgid "ChequeSalesReceipt"
+msgstr "Тауар чек"
+
+#: terminal.c:861
+msgid "ChequeAgent"
+msgstr "Агент: ЖШС \"Транспортный Холдинг г. Алматы\""
+
+#: terminal.c:866
+#, c-format
+msgid "ChequeIIN"
+msgstr "ЖСН:            %s"
+
+#: terminal.c:870 terminal.c:910
+#, c-format
+msgid "ChequePhoneNumber"
+msgstr "Телефон:    %s"
+
+#: terminal.c:877
+#, c-format
+msgid "ChequeKKMNumber"
+msgstr "БКМ нөмір:  %s"
+
+#: terminal.c:881
+#, c-format
+msgid "ChequeKKMRegNumber"
+msgstr "БКМ тіркеу нөмірі:  %s"
+
+#: terminal.c:886
+#, c-format
+msgid "ChequeFiscNumber"
+msgstr "ФИСК Чек№: %s"
+
+#: terminal.c:892
+msgid "ChequeAddress"
+msgstr "Мекен-жай: Алматы қ-сы, Рыскулбеков 33/1 к-сі"
+
+#: terminal.c:901
+#, c-format
+msgid "ChequeDate"
+msgstr "Күні:              %s"
+
+#: terminal.c:906
+msgid "ChequeSupplier"
+msgstr "Жеткізуші: ТОО \"Транспортный Холдинг"
+
+msgid "ChequeSupplier2"
+msgstr "                        г. Алматы\""
+
+#: terminal.c:917 terminal.c:927 terminal.c:938 terminal.c:948
+#, c-format
+msgid "ChequeOpRefill"
+msgstr "Көлік картасы \"Оңай\". Баланс толтыру: %d KZT"
+
+#: terminal.c:922
+#, c-format
+msgid "ChequeOpBuyCard"
+msgstr "Көлік картасы \"Оңай\". Сатып алу: %d KZT"
+
+#: terminal.c:944
+#, c-format
+msgid "ChequeOpBuyPass"
+msgstr "\"Оңай\". Жол жүру билетін сатып алу: %d KZT"
+
+msgid "ChequeVAT"
+msgstr "ҚҚС қоса алғанда: %d KZT"
+
+msgid "ChequeVATDesc"
+msgstr "ҚҚС №60001 №0084940 16.05.2013 ж. бастап"
+
+#: terminal.c:954
+msgid "ChequeOpCollect"
+msgstr "Инкассалау"
+
+#: terminal.c:957
+#, c-format
+msgid "ChequeAmountExtracted"
+msgstr "Алынды:        %d"
+
+#: terminal.c:967 terminal.c:988
+#, c-format
+msgid "ChequeOpCode"
+msgstr "Операция коды: %s"
+
+#: terminal.c:973
+#, c-format
+msgid "ChequeAccepted"
+msgstr "Қабылданды: %d KZT"
+
+#: terminal.c:977
+#, c-format
+msgid "ChequeCommission"
+msgstr "Комиссия:       %d KZT"
+
+#: terminal.c:983
+#, c-format
+msgid "ChequeCardNumber"
+msgstr "Карта нөмірі: %s"
+
+#: terminal.c:997
+msgid "ChequeKeepReceiptNote"
+msgstr "Сіздің \"Оңай\" есепшотыңызға қаражат түскенге"
+
+#: terminal.c:1000
+msgid "ChequeKeepReceiptNote2"
+msgstr "деиін, чекті сақтауыңызды сұраймыз. Рахмет"
+
+#: terminal.c:1007
+msgid "ChequeThanksNote"
+msgstr "Сатып алғаныңызға рахмет!"
+
+#: terminal.c:1014
+msgid "ChequeNotFiscalNote"
+msgstr "Техникалық кемшіліктер себебімен,"
+
+#: terminal.c:1018
+msgid "ChequeNotFiscalNote2"
+msgstr "қазыналық чекті кәзіргі уақытта алу мүмкін емес."
+
+#: terminal.c:1022
+msgid "ChequeNotFiscalNote3"
+msgstr "Чекті алу үшін берілген телефондар арқылы"
+
+#: terminal.c:1026
+msgid "ChequeNotFiscalNote4"
+msgstr "хабарласуыңызды сұраймыз."
+
+#: terminal.c:1030
+msgid "ChequeNotFiscalNote5"
+msgstr "Түсінігіңізге рахмет!"
+
+#: terminal.c:1042
+msgid "ChequeRoundTheClock"
+msgstr "*********************** Тәулік бойы ***********************"
+
+#: terminal.c:1463
+msgid "HomeInstruction"
+msgstr "Балансты тексеру немесе толтыру үшін картаңызды оқитын құралға тіркеңіз"
+
+#: terminal.c:1467
+msgid "GetCard"
+msgstr "Карта сатып алу"
+
+#: terminal.c:1467 terminal.c:1531
+msgid "ManualInput"
+msgstr "Картаның нөмірін қолмен енгізу"
+
+#: terminal.c:1467
+msgid "GetPass"
+msgstr "Жол жүру билетін сатып алу"
+
+#: terminal.c:1493
+msgid "NoCardsInstruction"
+msgstr "Кешіріңіз, қазіргі уақытта карта қолда жоқ"
+
+#: terminal.c:1493 terminal.c:1627 terminal.c:1669 terminal.c:1681
+#: terminal.c:1710 terminal.c:1721 terminal.c:1793 terminal.c:1805
+#: terminal.c:1853 terminal.c:1881 terminal.c:1892 terminal.c:1903
+#: terminal.c:1921 terminal.c:2067
+msgid "Exit"
+msgstr "Шығу"
+
+#: terminal.c:1526
+#, c-format
+msgid "PassIntroInstruction2"
+msgstr "%s айына жол жүру билеті.\nЖол жүру билеті 1 ай ішінде жарамды, ол сізге шексіз сапар жасауға мүмкіндік береді. Жалғастыру үшін картаңызды оқитын құралға тіркеңіз"
+
+#: terminal.c:1528
+#, c-format
+msgid "PassIntroInstruction"
+msgstr "%s айына жол жүру билеті.\nЖол жүру билеті 1 ай ішінде жарамды, ол сізге шексіз сапар жасауға мүмкіндік береді. Осы айдың 15-нен кеиін %s айына жол жүру билетін сатып алуға мүмкіндігіңіз бар. Жалғастыру үшін картаңызды оқитын құралға тіркеңіз"
+
+#: terminal.c:1531 terminal.c:1577 terminal.c:1656 terminal.c:1755
+msgid "Cancel"
+msgstr "Күшін жою"
+
+#: terminal.c:1542
+msgid "PassPrice"
+msgstr "Жол жүру билетінің құны"
+
+#: terminal.c:1543 terminal.c:1736 terminal.c:1842
+msgid "AmountDeposited"
+msgstr "Енгiзiлген сома"
+
+#: terminal.c:1546
+#, c-format
+msgid "PassPriceValue"
+msgstr "%d тг + %d тг балансында"
+
+#: terminal.c:1553 terminal.c:1841
+msgid "Balance"
+msgstr "Баланс"
+
+#: terminal.c:1555 terminal.c:1557 terminal.c:1564 terminal.c:1568
+#: terminal.c:1570 terminal.c:1740 terminal.c:1742 terminal.c:1745
+#: terminal.c:1747
+#, c-format
+msgid "AmountValue"
+msgstr "%d тг"
+
+#: terminal.c:1562 terminal.c:1737
+msgid "BalanceToRefill"
+msgstr "Баланс толтыру"
+
+msgid "CurrentBalance"
+msgstr "Ағымдағы карта балансы"
+
+msgid "MinimumBalance"
+msgstr "Минималды карта балансы"
+
+msgid "DepositMinimumAmount"
+msgstr "%d теңгеден төмен емес сомасын енгізіңіз"
+
+#: terminal.c:1577 terminal.c:1639 terminal.c:1654 terminal.c:1656
+msgid "PassFirstInstruction"
+msgstr "Керекті соманы енгізіңіз. Назар аударыңыз: aппарат ақша қайтармайды! Жол жүру билетінінің құнынан, артық сома, картаның балансына аударылады"
+
+#: terminal.c:1622
+#, c-format
+msgid "PassAlreadyActiveInstruction2"
+msgstr "Сіздің картаңыз %s айына белсенді жол жүру билеті. %s айына жол жүру билетін сатып алу, осы айдың 15-нен кейін мүмкін болады"
+
+#: terminal.c:1624
+#, c-format
+msgid "PassAlreadyActiveInstruction"
+msgstr "Сіздің картаңыз %s айына белсенді жол жүру билеті"
+
+#: terminal.c:1654 terminal.c:1656 terminal.c:1781 terminal.c:1868
+#: terminal.c:2072
+msgid "Next"
+msgstr "Жалғастыру"
+
+#: terminal.c:1669
+msgid "PassInsufficientAmountInstruction"
+msgstr "Салған сомаңыз жол жүру билетін сатып алуға жеткіліксіз. Барлық сома картаңыздың балансына аударылады. Чекті сақтауыңызды сұраймыз"
+
+#: terminal.c:1681
+msgid "PassActiveInstruction"
+msgstr "Сатып алғаныңызға рақмет! 15 минут арасында сіздің картаңыз жол жүру билетіне ауысады. Чекті сақтауыңызды сұраймыз"
+
+#: terminal.c:1707
+#, c-format
+msgid "PassActiveNextMonthInstruction"
+msgstr "Сатып алғаныңызға рахмет! Сіздің картаңыз %s айының жол жүру билетіне ауысады"
+
+#: terminal.c:1721
+msgid "PassActiveWhenConnectedInstruction"
+msgstr "Кешіріңіз, байланыс саласында кемшіліктер шықты. Сіздің картаңыз байланыс қалпына келген уақытта жол жүру билетіне ауысады. Чекті сақтауыңызды сұраймыз"
+
+#: terminal.c:1735
+msgid "CardPrice"
+msgstr "Картаның құны"
+
+#: terminal.c:1755 terminal.c:1769 terminal.c:1781
+msgid "CardIntroInstruction"
+msgstr "Керекті сомаңызды енгізіңіз. Назар аударыңыз: аппарат ақша қайтармайды!"
+
+#: terminal.c:1793
+msgid "CardInsufficientAmountInstruction"
+msgstr "Карта сатып алу үшін төлеген сомаңыз жеткіліксіз. Қаражатыңызды қайтарып алу үшін чекті сақтауыңызды сұраймыз"
+
+#: terminal.c:1805
+msgid "CardFreeInstruction"
+msgstr "Сіздің картаңыздың жеңілдігі бар. Картаның иесі қоғамдық көлік қызметтерімен тегін қолдана алады"
+
+msgid "CardPreScanInstruction"
+msgstr "Назар аударыңыз! Қалған %d тг. сомаңызды карта балансына толтыру үшін, картаңызды оқу құралына тіркеңіз"
+
+#: terminal.c:1815
+msgid "CardScanInstruction"
+msgstr "Назар аударыңыз! Картаны белсендіру үшін оқитын құралға тіркеңіз"
+
+#: terminal.c:1853
+msgid "BalanceIntroInstruction"
+msgstr "Баланс толтыру үшін керекті сомаңызды енгізіңіз. Назар аударыңыз: aппарат ақша қайтармайды!"
+
+#: terminal.c:1868
+msgid "BalanceRefillInstruction"
+msgstr "Баланс толтыру үшін керекті сомаңызды енгізіңіз және \"Жалғастыру\" тетікшесін басыңыз. Назар аударыңыз: аппарат ақша қайтармайды!"
+
+#: terminal.c:1881 terminal.c:1918
+msgid "CardRefilledInstruction"
+msgstr "Құйған сомаңыз Оңай картасына 15 минут аралығында түседi. Чектi сақтауыңызды сұраймыз"
+
+#: terminal.c:1892
+msgid "CardRefilledWhenConnectedInstruction"
+msgstr "Кешіріңіз, байланыс саласында кемшіліктер шықты. Сіздің балансыңыз байланыс қалпына келген уақытта толтырылады. Чекті сақтауыңызды сұраймыз"
+
+#: terminal.c:1903
+msgid "CardNotFoundInstruction"
+msgstr "Картаңыз анықталмады"
+
+#: terminal.c:1914
+msgid "ThankYouForPurchase"
+msgstr "Сатып алғаныңызға рахмет!"
+
+#: terminal.c:1917
+msgid "Space"
+msgstr " "
+
+#: terminal.c:1935 terminal.c:1941
+msgid "OutOfServiceInstruction"
+msgstr "Кешіріңіз, терминал уақытша жұмыс істемейді"
+
+#: terminal.c:1937
+msgid "ContactPhoneNumber"
+msgstr "Анықтама алу телефоны"
+
+msgid "SupportPhoneNumber"
+msgstr "Техникалық көмек көрсету нөмірі: "
+
+#: terminal.c:1957
+msgid "MoreTimeNeeded"
+msgstr "Операция өткен жоқ! Сізге қосымша уақыт қажет па?"
+
+#: terminal.c:1973
+msgid "No"
+msgstr "Жоқ"
+
+#: terminal.c:1979
+msgid "Yes"
+msgstr "Иә"
+
+#: terminal.c:2084
+msgid "CardNumber"
+msgstr "Картасының нөмірі"
+
+#: terminal.c:2100
+msgid "PinCode"
+msgstr "ПИН-кодты теріңіз"
+
+#: terminal.c:1937
+msgid "AttemptsLeft"
+msgstr "Әрекет калды"

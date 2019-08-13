@@ -1,0 +1,16 @@
+Onay Terminal 101
+
+display_form( SCREEN_INTRO )
+
+can't open SPI device
+leaving SPI thread
+Failed to open Card Dispenser port
+
+Failed to open Card Reader port
+Failed to open Bill Acceptor port
+
+report_status() at: 22:52:58
+id=3&amount=0&status=480
+time_updated: 0
+display_form( SCREEN_OUT_OF_SERVICE )
+

@@ -1,0 +1,360 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-29 20:06-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: terminal.c:847
+msgid "ChequeOnay"
+msgstr "************************** ОҢАЙ ***************************"
+
+#: terminal.c:855
+msgid "ChequeSalesReceipt"
+msgstr "Товарный чек"
+
+#: terminal.c:861
+msgid "ChequeAgent"
+msgstr "Агент: ТОО \"Транспортный Холдинг г. Алматы\""
+
+#: terminal.c:866
+#, c-format
+msgid "ChequeIIN"
+msgstr "БИН:           %s"
+
+#: terminal.c:870 terminal.c:910
+#, c-format
+msgid "ChequePhoneNumber"
+msgstr "Телефон:    %s"
+
+#: terminal.c:877
+#, c-format
+msgid "ChequeKKMNumber"
+msgstr "ККМ номер: %s"
+
+#: terminal.c:881
+#, c-format
+msgid "ChequeKKMRegNumber"
+msgstr "ККМ рег. номер: %s"
+
+#: terminal.c:886
+#, c-format
+msgid "ChequeFiscNumber"
+msgstr "ФИСК Чек№: %s"
+
+#: terminal.c:892
+msgid "ChequeAddress"
+msgstr "Адрес:     г. Алматы, Рыскулбекова 33/1"
+
+#: terminal.c:901
+#, c-format
+msgid "ChequeDate"
+msgstr "Дата:          %s"
+
+#: terminal.c:906
+msgid "ChequeSupplier"
+msgstr "Поставщик: ТОО \"Транспортный Холдинг"
+
+msgid "ChequeSupplier2"
+msgstr "                        г. Алматы\""
+
+#: terminal.c:917 terminal.c:927 terminal.c:938 terminal.c:948
+#, c-format
+msgid "ChequeOpRefill"
+msgstr "Карта Оңай. Пополнение: %d KZT"
+
+#: terminal.c:922
+#, c-format
+msgid "ChequeOpBuyCard"
+msgstr "Карта Оңай. Покупка: %d KZT"
+
+#: terminal.c:944
+#, c-format
+msgid "ChequeOpBuyPass"
+msgstr "Карта Оңай. Покупка проездного: %d KZT"
+
+msgid "ChequeVAT"
+msgstr "В том числе НДС: %d KZT"
+
+msgid "ChequeVATDesc"
+msgstr "НДС №60001 №0084940 от 16.05.2013"
+
+#: terminal.c:954
+msgid "ChequeOpCollect"
+msgstr "Инкассация"
+
+#: terminal.c:957
+#, c-format
+msgid "ChequeAmountExtracted"
+msgstr "Изъято:   %d"
+
+#: terminal.c:967 terminal.c:988
+#, c-format
+msgid "ChequeOpCode"
+msgstr "Код операции: %s"
+
+#: terminal.c:973
+#, c-format
+msgid "ChequeAccepted"
+msgstr "Принято:      %d KZT"
+
+#: terminal.c:977
+#, c-format
+msgid "ChequeCommission"
+msgstr "Комиссия:    %d KZT"
+
+#: terminal.c:983
+#, c-format
+msgid "ChequeCardNumber"
+msgstr "Номер карты:   %s"
+
+#: terminal.c:997
+msgid "ChequeKeepReceiptNote"
+msgstr "Пожалуйста, сохраняйте квитанцию до зачисления "
+
+#: terminal.c:1000
+msgid "ChequeKeepReceiptNote2"
+msgstr "средств на Ваш счет Оңай! Спасибо!"
+
+#: terminal.c:1007
+msgid "ChequeThanksNote"
+msgstr "Благодарим за покупку!"
+
+#: terminal.c:1014
+msgid "ChequeNotFiscalNote"
+msgstr "Выдача фискального чека на данную операцию"
+
+#: terminal.c:1018
+msgid "ChequeNotFiscalNote2"
+msgstr "по техническим причинам не возможна!"
+
+#: terminal.c:1022
+msgid "ChequeNotFiscalNote3"
+msgstr "Просим Вас обратиться по указанным телефонам"
+
+#: terminal.c:1026
+msgid "ChequeNotFiscalNote4"
+msgstr "для получения фискального чека у агента."
+
+#: terminal.c:1030
+msgid "ChequeNotFiscalNote5"
+msgstr "Благодарим за понимание!"
+
+#: terminal.c:1042
+msgid "ChequeRoundTheClock"
+msgstr "********************** Круглосуточно ***********************"
+
+#: terminal.c:1419
+msgid "HomeInstruction"
+msgstr "Для проверки или пополнения баланса поднесите карту к считывателю"
+
+#: terminal.c:1423
+msgid "GetCard"
+msgstr "Приобрести карту"
+
+#: terminal.c:1423 terminal.c:1487
+msgid "ManualInput"
+msgstr "Ввести номер карты вручную"
+
+#: terminal.c:1423
+msgid "GetPass"
+msgstr "Приобрести проездной абонемент"
+
+#: terminal.c:1449
+msgid "NoCardsInstruction"
+msgstr "Извините, в данный момент карт нет в наличии"
+
+#: terminal.c:1449 terminal.c:1583 terminal.c:1625 terminal.c:1637
+#: terminal.c:1666 terminal.c:1677 terminal.c:1749 terminal.c:1761
+#: terminal.c:1809 terminal.c:1837 terminal.c:1848 terminal.c:1859
+#: terminal.c:1877 terminal.c:2023
+msgid "Exit"
+msgstr "Выход"
+
+#: terminal.c:1482
+#, c-format
+msgid "PassIntroInstruction2"
+msgstr "Проездной абонемент на %s.\nПроездной абонемент действует в течение одного календарного месяца и позволяет совершить неограниченное количество поездок. Поднесите карту к считывателю чтобы продолжить"
+
+#: terminal.c:1484
+#, c-format
+msgid "PassIntroInstruction"
+msgstr "Проездной абонемент на %s.\nПроездной абонемент действует в течение одного календарного месяца и позволяет совершить неограниченное количество поездок. Начиная с 15 числа Вы сможете приобрести проездной абонемент за %s. Поднесите карту к считывателю чтобы продолжить"
+
+#: terminal.c:1487 terminal.c:1533 terminal.c:1612 terminal.c:1711
+msgid "Cancel"
+msgstr "Отмена"
+
+#: terminal.c:1498
+msgid "PassPrice"
+msgstr "Стоимость абонемента"
+
+#: terminal.c:1499 terminal.c:1692 terminal.c:1798
+msgid "AmountDeposited"
+msgstr "Внесенная сумма"
+
+#: terminal.c:1502
+#, c-format
+msgid "PassPriceValue"
+msgstr "%d тг + %d тг на балансе"
+
+#: terminal.c:1509 terminal.c:1797
+msgid "Balance"
+msgstr "Баланс"
+
+#: terminal.c:1511 terminal.c:1513 terminal.c:1520 terminal.c:1524
+#: terminal.c:1526 terminal.c:1696 terminal.c:1698 terminal.c:1701
+#: terminal.c:1703
+#, c-format
+msgid "AmountValue"
+msgstr "%d тг"
+
+#: terminal.c:1518 terminal.c:1693
+msgid "BalanceToRefill"
+msgstr "Пополнение баланса"
+
+msgid "CurrentBalance"
+msgstr "Текущий баланс карты"
+
+msgid "MinimumBalance"
+msgstr "Минимальный баланс карты"
+
+msgid "DepositMinimumAmount"
+msgstr "Внесите сумму не ниже %d тг."
+
+msgid "PassSufficientBalanceInstruction"
+msgstr "Суммы на балансе Вашей карты Оңай! достаточно для покупки проездного абонемента. Нажмите кнопку Продолжить для покупки абонемента на %s"
+
+#: terminal.c:1533 terminal.c:1595 terminal.c:1610 terminal.c:1612
+msgid "PassFirstInstruction"
+msgstr "Внимание! терминал сдачу не выдает! Сумма, превышающая стоимость проездного абонемента, будет зачислена на баланс карты Оңай!"
+
+#: terminal.c:1578
+#, c-format
+msgid "PassAlreadyActiveInstruction2"
+msgstr "Ваша карта Оңай! уже является активным проездным абонементом на %s. Приобрести проездной абонемент на %s можно будет начиная с 15 числа"
+
+#: terminal.c:1580
+#, c-format
+msgid "PassAlreadyActiveInstruction"
+msgstr "Ваша карта уже является активным проездным абонементом на %s"
+
+#: terminal.c:1610 terminal.c:1612 terminal.c:1737 terminal.c:1824
+#: terminal.c:2028
+msgid "Next"
+msgstr "Продолжить"
+
+#: terminal.c:1625
+msgid "PassInsufficientAmountInstruction"
+msgstr "Внесенной Вами суммы недостаточно для покупки проездного абонемента. Вся сумма будет переведена на баланс карты. Пожалуйста, сохраните чек"
+
+#: terminal.c:1637
+msgid "PassActiveInstruction"
+msgstr "Проездной абонемент на %s оплачен. Спасибо за покупку! Сумма на балансе %d тг. Пожалуйста, сохраните чек"
+
+#: terminal.c:1663
+#, c-format
+msgid "PassActiveNextMonthInstruction"
+msgstr "Спасибо за покупку! Ваша карта станет действующим проездным абонементом за %s. Пожалуйста, сохраните чек"
+
+#: terminal.c:1677
+msgid "PassActiveWhenConnectedInstruction"
+msgstr "Извините, возникли неполадки со связью. Ваша карта Оңай! станет действующим проездным абонементом, как только связь восстановится. Пожалуйста, сохраните чек"
+
+#: terminal.c:1691
+msgid "CardPrice"
+msgstr "Стоимость карты"
+
+#: terminal.c:1711 terminal.c:1725 terminal.c:1737
+msgid "CardIntroInstruction"
+msgstr "Внимание! Терминал сдачу не выдает! Сумма, превышающая стоимость карты, будет зачислена на баланс карты Оңай!"
+
+#: terminal.c:1749
+msgid "CardInsufficientAmountInstruction"
+msgstr "Внесенной Вами суммы недостаточно для покупки карты Оңай! Пожалуйста, сохраните чек для востребования средств"
+
+#: terminal.c:1761
+msgid "CardFreeInstruction"
+msgstr "Ваша карта является льготной. Владелец карты может пользоваться услугами общественного транспорта бесплатно"
+
+msgid "CardPreScanInstruction"
+msgstr "Внимание! Для зачисления остатка средств на баланс карты в размере %d тг., после выдачи терминалом, поднесите ее к считывателю!"
+
+#: terminal.c:1771
+msgid "CardScanInstruction"
+msgstr "Внимание! Для активации карты Оңай! поднесите ее к считывателю"
+
+#: terminal.c:1809
+msgid "BalanceIntroInstruction"
+msgstr "Для пополнения баланса карты Оңай! внесите необходимую сумму. Внимание! Терминал сдачу не выдает!"
+
+#: terminal.c:1824
+msgid "BalanceRefillInstruction"
+msgstr "Для пополнения баланса карты Оңай! внесите необходимую сумму и нажмите кнопку Продолжить. Внимание! Терминал сдачу не выдает!"
+
+#: terminal.c:1837 terminal.c:1874
+msgid "CardRefilledInstruction"
+msgstr "Спасибо, платеж принят! Баланс карты Оңай! будет пополнен в течение 15 минут. Пожалуйста, сохраните чек"
+
+#: terminal.c:1848
+msgid "CardRefilledWhenConnectedInstruction"
+msgstr "Извините, возникли неполадки со связью. Баланс карты Оңай! будет пополнен, как только связь восстановится. Пожалуйста, сохраните чек"
+
+#: terminal.c:1859
+msgid "CardNotFoundInstruction"
+msgstr "Не удалось распознать карту"
+
+#: terminal.c:1870
+msgid "ThankYouForPurchase"
+msgstr "Спасибо за покупку!"
+
+#: terminal.c:1873
+msgid "Space"
+msgstr " "
+
+#: terminal.c:1891 terminal.c:1897
+msgid "OutOfServiceInstruction"
+msgstr "Извините, терминал временно не работает"
+
+#: terminal.c:1893
+msgid "ContactPhoneNumber"
+msgstr "Телефон для справок"
+
+msgid "SupportPhoneNumber"
+msgstr "Телефон технической поддержки: "
+
+#: terminal.c:1913
+msgid "MoreTimeNeeded"
+msgstr "Операция не завершена! Вам требуется дополнительное время?"
+
+#: terminal.c:1929
+msgid "No"
+msgstr "Нет"
+
+#: terminal.c:1935
+msgid "Yes"
+msgstr "Да"
+
+#: terminal.c:2040
+msgid "CardNumber"
+msgstr "Номер карты"
+
+#: terminal.c:2056
+msgid "PinCode"
+msgstr "Введите ПИН-код"
+
+#: terminal.c:1937
+msgid "AttemptsLeft"
+msgstr "Осталось попыток"

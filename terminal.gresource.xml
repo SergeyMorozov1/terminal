@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource>
+    <file>cancel.png</file>
+    <file>ok.png</file>
+    <file>delete.png</file>
+    <file>arrow.gif</file>
+  </gresource>
+</gresources>

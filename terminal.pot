@@ -1,0 +1,335 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-15 03:27-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: terminal.c:962
+msgid "ChequeOnay"
+msgstr ""
+
+#: terminal.c:970
+msgid "ChequeSalesReceipt"
+msgstr ""
+
+#: terminal.c:976
+msgid "ChequeAgent"
+msgstr ""
+
+#: terminal.c:981
+#, c-format
+msgid "ChequeIIN"
+msgstr ""
+
+#: terminal.c:985 terminal.c:1025
+#, c-format
+msgid "ChequePhoneNumber"
+msgstr ""
+
+#: terminal.c:992
+#, c-format
+msgid "ChequeKKMNumber"
+msgstr ""
+
+#: terminal.c:996
+#, c-format
+msgid "ChequeKKMRegNumber"
+msgstr ""
+
+#: terminal.c:1001
+#, c-format
+msgid "ChequeFiscNumber"
+msgstr ""
+
+#: terminal.c:1007
+msgid "ChequeAddress"
+msgstr ""
+
+#: terminal.c:1016
+#, c-format
+msgid "ChequeDate"
+msgstr ""
+
+#: terminal.c:1021
+msgid "ChequeSupplier"
+msgstr ""
+
+#: terminal.c:1032 terminal.c:1042 terminal.c:1053 terminal.c:1063
+#, c-format
+msgid "ChequeOpRefill"
+msgstr ""
+
+#: terminal.c:1037
+#, c-format
+msgid "ChequeOpBuyCard"
+msgstr ""
+
+#: terminal.c:1059
+#, c-format
+msgid "ChequeOpBuyPass"
+msgstr ""
+
+#: terminal.c:1069
+msgid "ChequeOpCollect"
+msgstr ""
+
+#: terminal.c:1072
+#, c-format
+msgid "ChequeAmountExtracted"
+msgstr ""
+
+#: terminal.c:1082 terminal.c:1103
+#, c-format
+msgid "ChequeOpCode"
+msgstr ""
+
+#: terminal.c:1088
+#, c-format
+msgid "ChequeAccepted"
+msgstr ""
+
+#: terminal.c:1092
+#, c-format
+msgid "ChequeCommission"
+msgstr ""
+
+#: terminal.c:1098
+#, c-format
+msgid "ChequeCardNumber"
+msgstr ""
+
+#: terminal.c:1112
+msgid "ChequeKeepReceiptNote"
+msgstr ""
+
+#: terminal.c:1115
+msgid "ChequeKeepReceiptNote2"
+msgstr ""
+
+#: terminal.c:1122
+msgid "ChequeThanksNote"
+msgstr ""
+
+#: terminal.c:1129
+msgid "ChequeNotFiscalNote"
+msgstr ""
+
+#: terminal.c:1133
+msgid "ChequeNotFiscalNote2"
+msgstr ""
+
+#: terminal.c:1137
+msgid "ChequeNotFiscalNote3"
+msgstr ""
+
+#: terminal.c:1141
+msgid "ChequeNotFiscalNote4"
+msgstr ""
+
+#: terminal.c:1145
+msgid "ChequeNotFiscalNote5"
+msgstr ""
+
+#: terminal.c:1157
+msgid "ChequeRoundTheClock"
+msgstr ""
+
+#: terminal.c:1937 terminal.c:3423
+msgid "PinCode"
+msgstr ""
+
+#: terminal.c:1937
+msgid "AttemptsLeft"
+msgstr ""
+
+#: terminal.c:2770
+msgid "HomeInstruction"
+msgstr ""
+
+#: terminal.c:2774
+msgid "GetCard"
+msgstr ""
+
+#: terminal.c:2774 terminal.c:2841
+msgid "ManualInput"
+msgstr ""
+
+#: terminal.c:2774
+msgid "GetPass"
+msgstr ""
+
+#: terminal.c:2804
+msgid "NoCardsInstruction"
+msgstr ""
+
+#: terminal.c:2804 terminal.c:2941 terminal.c:2983 terminal.c:2995
+#: terminal.c:3024 terminal.c:3035 terminal.c:3107 terminal.c:3119
+#: terminal.c:3167 terminal.c:3195 terminal.c:3206 terminal.c:3217
+#: terminal.c:3235 terminal.c:3389
+msgid "Exit"
+msgstr ""
+
+#: terminal.c:2836
+#, c-format
+msgid "PassIntroInstruction2"
+msgstr ""
+
+#: terminal.c:2838
+#, c-format
+msgid "PassIntroInstruction"
+msgstr ""
+
+#: terminal.c:2841 terminal.c:2891 terminal.c:2970 terminal.c:3069
+msgid "Cancel"
+msgstr ""
+
+#: terminal.c:2852
+msgid "PassPrice"
+msgstr ""
+
+#: terminal.c:2853 terminal.c:3050 terminal.c:3156
+msgid "AmountDeposited"
+msgstr ""
+
+#: terminal.c:2856
+#, c-format
+msgid "PassPriceValue"
+msgstr ""
+
+#: terminal.c:2867 terminal.c:3155
+msgid "Balance"
+msgstr ""
+
+#: terminal.c:2869 terminal.c:2871 terminal.c:2878 terminal.c:2882
+#: terminal.c:2884 terminal.c:3054 terminal.c:3056 terminal.c:3059
+#: terminal.c:3061
+#, c-format
+msgid "AmountValue"
+msgstr ""
+
+#: terminal.c:2876 terminal.c:3051
+msgid "BalanceToRefill"
+msgstr ""
+
+#: terminal.c:2891 terminal.c:2953 terminal.c:2968 terminal.c:2970
+msgid "PassFirstInstruction"
+msgstr ""
+
+#: terminal.c:2936
+#, c-format
+msgid "PassAlreadyActiveInstruction2"
+msgstr ""
+
+#: terminal.c:2938
+#, c-format
+msgid "PassAlreadyActiveInstruction"
+msgstr ""
+
+#: terminal.c:2968 terminal.c:2970 terminal.c:3095 terminal.c:3182
+#: terminal.c:3394
+msgid "Next"
+msgstr ""
+
+#: terminal.c:2983
+msgid "PassInsufficientAmountInstruction"
+msgstr ""
+
+#: terminal.c:2995
+msgid "PassActiveInstruction"
+msgstr ""
+
+#: terminal.c:3021
+#, c-format
+msgid "PassActiveNextMonthInstruction"
+msgstr ""
+
+#: terminal.c:3035
+msgid "PassActiveWhenConnectedInstruction"
+msgstr ""
+
+#: terminal.c:3049
+msgid "CardPrice"
+msgstr ""
+
+#: terminal.c:3069 terminal.c:3083 terminal.c:3095
+msgid "CardIntroInstruction"
+msgstr ""
+
+#: terminal.c:3107
+msgid "CardInsufficientAmountInstruction"
+msgstr ""
+
+#: terminal.c:3119
+msgid "CardFreeInstruction"
+msgstr ""
+
+#: terminal.c:3129
+msgid "CardScanInstruction"
+msgstr ""
+
+#: terminal.c:3167
+msgid "BalanceIntroInstruction"
+msgstr ""
+
+#: terminal.c:3182
+msgid "BalanceRefillInstruction"
+msgstr ""
+
+#: terminal.c:3195 terminal.c:3232
+msgid "CardRefilledInstruction"
+msgstr ""
+
+#: terminal.c:3206
+msgid "CardRefilledWhenConnectedInstruction"
+msgstr ""
+
+#: terminal.c:3217
+msgid "CardNotFoundInstruction"
+msgstr ""
+
+#: terminal.c:3228
+msgid "ThankYouForPurchase"
+msgstr ""
+
+#: terminal.c:3231
+msgid "Space"
+msgstr ""
+
+#. trace( "Phone number: %s", terminal.phone_number );
+#. trace( "OutOfService without phone number" );
+#: terminal.c:3250 terminal.c:3258
+msgid "OutOfServiceInstruction"
+msgstr ""
+
+#: terminal.c:3252
+msgid "ContactPhoneNumber"
+msgstr ""
+
+#: terminal.c:3278
+msgid "MoreTimeNeeded"
+msgstr ""
+
+#: terminal.c:3294
+msgid "No"
+msgstr ""
+
+#: terminal.c:3300
+msgid "Yes"
+msgstr ""
+
+#: terminal.c:3407
+msgid "CardNumber"
+msgstr ""
